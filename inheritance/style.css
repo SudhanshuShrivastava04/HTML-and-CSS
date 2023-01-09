@@ -1,0 +1,22 @@
+*{
+    background-color: #212121;
+    font-family: 'Poppins' , sans-serif;
+}
+div{
+    background-color: blue;
+    width: 50%;
+    height: 50vh;
+}
+/* div means division */
+.cl1{
+    background-color: yellow;
+}
+#id2{
+    background-color: red;
+}
+p{
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
