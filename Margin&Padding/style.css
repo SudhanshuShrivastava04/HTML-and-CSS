@@ -1,0 +1,26 @@
+*{
+    background-color: #212121;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+}
+.box{
+    margin: 30px;
+    padding: 50px;
+    font-size: 15px;
+    color: white;
+}
+#div1{
+    background-color: purple;
+    border-radius: 50px;
+}
+#div2{
+    background-color: lightsteelblue;
+    border-radius: 50px;
+}
+#div3{
+    background-color: plum;
+    border-radius: 50px;
+}
+.box:active{
+    width: 100px;
+}
