@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+    
+}
+.box{
+    background-color: maroon;
+    width: 300px;
+    height: 300px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 300px;
+}
+.box:hover{
+    background-color: antiquewhite;
+    color: maroon;
+}
+.hoverMe{
+    color: maroon;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    display: inline;
+}
+p:hover{
+    color: antiquewhite;
+    text-shadow: 100px;
+    cursor: pointer;
+}
+/* .hoverMe:active{
+    font-size: 50px;
+} */
+.hoverMe:focus{
+    font-size: 50px;
+    width: 100px;
+}
