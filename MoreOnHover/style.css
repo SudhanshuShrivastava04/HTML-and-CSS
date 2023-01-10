@@ -1,0 +1,23 @@
+*{
+    background-color: #212121;
+}
+.text{
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin: 200px;
+}
+p{
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+p:hover{
+    color: deeppink;
+}
+span{
+    color: deeppink;
+}
+span:hover{
+    color: plum;
+}
