@@ -1,0 +1,36 @@
+*{
+    background-color: #212121;
+    justify-content: center;
+}
+div{
+    margin: 30px 30px 30px 45%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.one{
+    background-color: red;
+    box-shadow: 100px white;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: blue;
+}
+.one:hover{
+    transform: translateX(100px);
+}
+.two:hover{
+    transform: translateX(-100px);
+}
+.three:hover{
+    transform: translateY(-100px);
+}
