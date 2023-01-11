@@ -1,0 +1,29 @@
+*{
+    background-color: #212121;
+    
+}
+div{
+    margin: 20px 20px 20px 45%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.one{
+    background-color: purple;
+}
+.two{
+    background-color: plum;
+}
+.one:hover{
+    transform: skewX(10deg);
+    
+}
+.two:hover{
+    transform: skewX(170deg);
+}
