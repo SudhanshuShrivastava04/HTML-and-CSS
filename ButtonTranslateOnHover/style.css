@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Montserrat&family=Poppins:wght@600&display=swap');
+*{
+    background-color: #212121;
+    font-family: 'Poppins' , sans-serif;
+}
+p{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+div.btn{
+    background-color: darkorchid;
+    color: white;
+    width: 120px;
+    height: 80px;
+    font-size: 50px;
+    margin: 50px  50px 50px 40%;
+    padding: 70px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 1s;
+    font-family: 'EB Garamond' , sans-serif;
+    box-shadow: whitesmoke 10px 10px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: plum 20px 20px 40px;
+    transform: translate(-10px ,-10px);
+    font-weight: thin;
+    transition: 0.5s;
+}
