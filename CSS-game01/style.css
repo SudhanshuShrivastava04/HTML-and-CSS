@@ -1,0 +1,74 @@
+* {
+    background-color: #212121;
+}
+
+.game {
+    height: 450px;
+    width: 450px;
+    margin: 50px;
+    background-color: indigo;
+
+}
+
+.box {
+    display: inline-block;
+    background-color: darkorange;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.player {
+    transform: translateY(200px);
+    background-color: greenyellow;
+    animation: move 3s infinite linear;
+    border-radius: 50px;
+    animation-play-state: paused;
+}
+#play{
+    background-color: darkorange;
+    border: solid 0px;
+    width: 60px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+.enemy {
+    margin-left: 100px;
+    animation: bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 5px;
+}
+.one{
+    animation-duration: 1.5s;
+}
+.two{
+    animation-duration: 3s;
+}
+.game:active .player{
+    animation-play-state: running;
+}
+@keyframes bounce {
+    50% {
+        transform: translateY(390px);
+    }
+}
+@keyframes move {
+    50%{
+        transform: translateX(390px) translateY(200px);
+    }
+
+}
+p{
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bolder;
+    display: inline;
+    margin: 50px;
+    font-size: 50px;
+}

@@ -1,0 +1,49 @@
+*{
+    background-color: #212121;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    margin: 50px ;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    display: inline-flex;
+    align-content: space-between;
+}
+.item{
+    width: 100px;
+    height: 140px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+}
+.item.one:hover{
+    transform: translateY(-40px);
+    transition: 1.25s;
+    background-color: deeppink;
+}
+.item.two:hover{
+    transform: translateY(40px);
+    transition: 1.25s;
+    background-color: fuchsia;
+}
+.item.three:hover{
+    transform: translateY(-40px);
+    transition: 1.25s;
+    background-color: chartreuse;
+}
+.item.four:hover{
+    transform: translateY(40px);
+    transition: 1.25s;
+    background-color: darkorange;
+}
+.text{
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}

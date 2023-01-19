@@ -1,0 +1,62 @@
+*{
+    background-color: #212121;
+    
+}
+h1{
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin: 50px;
+}
+.box{
+    width: 24%;
+    height: 25vmax;
+    background-color: darkmagenta;
+    margin: 50px;
+    border-radius: 20px;
+    animation: move 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+span{
+    font-size: 70px;
+    color: darkmagenta;
+    transition: 4s;
+}
+@keyframes move {
+    50%{
+        transform: translateY(-10px);
+    }
+}
+.box:hover{
+    animation-play-state: running;
+    box-shadow: whitesmoke 10px 10px 1000px;
+    transition: 4s;
+}
+/* media query */
+@media (max-width: 900px){
+    .box{
+        background-color: darkviolet;
+    }
+    span{
+        color: darkviolet;
+        font-size: 50px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 600px){
+    .box{
+        background-color: deeppink;
+    }
+    span{
+        color: deeppink;
+        font-size: 30px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
