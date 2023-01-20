@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    background-color: #212121;
+}
+img{
+    animation: rotate 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: 0.5s;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    font-size: 700%;
+    text-align: right;
+    align-self: flex-end;
+    color: bisque;
+    cursor: pointer;
+}
+span:hover{
+    color: saddlebrown;
+    transition: 1s;
+}
+.text:hover{
+    transform: translate(-20px);
+    transition: 1s;
+    text-shadow: -4px 4px 2px white;
+}
+#one:hover{
+    color: darksalmon;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+img:hover{
+    animation-play-state: paused;
+}
