@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.circle{
+    margin: 50px;
+    border-radius: 500px;
+    box-shadow: 10px 10px 700px cyan;
+    animation: rotatehue 5s alternate infinite;
+}
+@keyframes rotatehue{
+    to{
+        filter: hue-rotate(1turn);
+    }
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.box{
+    width: 70%;
+    display: flex;
+    margin: 10% auto;
+    padding: 20px;
+}
+.item{
+    height: 300px;
+    /* background: url(https://source.unsplash.com/random/200x200?sig=1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    flex: 1;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    opacity: 0.5;
+}
+.one{
+    background: url(https://source.unsplash.com/random/200x200?sig=1);
+    background-size: cover;
+}
+.two{
+    background: url(https://source.unsplash.com/random/200x200?sig=2);
+    background-size: cover;
+}
+.three{
+    background: url(https://source.unsplash.com/random/200x200?sig=3);
+    background-size: cover;
+}
+.four{
+    background: url(https://source.unsplash.com/random/200x200?sig=4);
+    background-size: cover;
+}
+.five{
+    background: url(https://source.unsplash.com/random/200x200?sig=5);
+    background-size: cover;
+}
+.item:hover{
+    flex: 3;
+    opacity: 1.5;
+    -webkit-box-reflect: below 20px linear-gradient(transparent , transparent  , #004);
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 50px;
+}
