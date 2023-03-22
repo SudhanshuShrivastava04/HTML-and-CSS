@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+}
+body{
+    background-color: #121212;
+}
+.client-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 3rem;
+}
+h2{
+    font-size: 1.3rem;
+    padding: 1rem;
+    background-color: transparent;
+    color: yellow;
+}
+.client-heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.client-text{
+    background-color: transparent;
+    color: white;
+}
+h1{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+}
+.slider{
+    padding: 2rem;
+    margin: 2rem;
+    overflow-x: hidden;
+}
+.overflow{
+    overflow: hidden;
+    display: flex;
+    padding: .5rem 1rem;
+}
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo_items{
+    margin-left: 1rem;
+    padding: 1rem;
+    aspect-ratio: 30/9;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+}
+.logo_items img{
+    height: 2rem;
+    /* width: 7rem; */
+    margin-inline: 2rem;
+}
+
+
+.counter-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.counter-container  div{
+    text-align: center;
+}
+.counter-container  div>p{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.counter-container  div>h2{
+    font-size: 2rem;
+}
